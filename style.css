@@ -1,0 +1,145 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Warna tema */
+:root {
+  --primary: #2f3e9e;
+  --secondary: #f5f7ff;
+  --accent: #fcb900;
+  --text-dark: #333;
+}
+
+/* === LOGIN PAGE === */
+.login-body {
+  background-image: url('uploads/Ruang\ Utama.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+.login-container h2 {
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.login-container label {
+  display: block;
+  margin-top: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.login-container input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 0.3rem;
+}
+
+.login-container button {
+  margin-top: 1.5rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-container button:hover {
+  background: #25368a;
+}
+
+.footer-text {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 1rem;
+}
+
+/* === DASHBOARD & DOKUMENTASI === */
+header {
+  background: var(--primary);
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+header nav a:hover,
+header nav .active {
+  text-decoration: underline;
+  color: var(--accent);
+}
+
+main {
+  padding: 3rem;
+  gap: 25px;  
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.card h2, .card h3, p {
+  color: var(--primary);
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+.map-img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
+.registrasi, .pintu, .Ruang {
+    background: blue;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 50px;
+    width: 160px;
+    cursor: pointer;
+    display: inline-block;
+    align-items: center;
+}
+
+.registrasi a, .pintu a, .Ruang a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
