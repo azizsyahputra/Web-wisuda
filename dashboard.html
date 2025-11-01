@@ -5,6 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard | Sistem Informasi Denah Gedung Wisuda</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .container-link {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      text-align: center;
+    }
+
+    .container-link :is(.registrasi, .pintu, .ruang) a {
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -31,14 +43,16 @@
       </ul>
     </section>
 
-    <div class="registrasi">
-        <a href='registrasi.html' class="btn">Registrasi Tamu</a>
-    </div>
-    <div class="pintu">
-        <a href='pintu.html' class="btn">Pintu Masuk dan Keluar Utama</a>
-    </div>
-    <div class="Ruang">
-        <a href='ruang.html' class="btn">Ruang Utama</a>
+    <div class="container-link">
+      <div class="registrasi">
+          <a href='registrasi.html' class="btn">Registrasi Tamu</a>
+      </div>
+      <div class="pintu">
+          <a href='pintu.html' class="btn">Pintu Masuk dan Keluar Utama</a>
+      </div>
+      <div class="ruang">
+          <a href='ruang.html' class="btn">Ruang Utama</a>
+      </div>
     </div>
   </main>
 </body>

@@ -16,7 +16,7 @@
 
 /* === LOGIN PAGE === */
 .login-body {
-  background-image: url('uploads/Ruang\ Utama.jpg');
+  background-image: url('uploads/ruang-utama.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,7 +124,7 @@ main {
   border-radius: 10px;
 }
 
-.registrasi, .pintu, .Ruang {
+.registrasi, .pintu, .ruang {
     background: blue;
     border-radius: 8px;
     margin-top: 20px;
@@ -132,14 +132,14 @@ main {
     gap: 50px;
     width: 160px;
     cursor: pointer;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-.registrasi a, .pintu a, .Ruang a {
-    color: white;
-    text-decoration: none;
     padding: 20px;
     text-align: center;
-    display: flex;
+}
+
+.registrasi a, .pintu a, .ruang a {
+    color: white;
+    text-decoration: none;
 }
